@@ -1,0 +1,97 @@
+@media (max-width:1024px){
+    .tab-mobile{
+        display: block;
+    }
+    header #main-nav{
+        display: none;
+    }
+    .hero .left img{
+        width: 260px;
+    }
+    .hero .right h1{
+        font-size: 3rem;
+    }
+    .hero{
+        padding-top: 10rem;
+    }
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 89%, 0 100%);
+    }
+    .about .about-me-img{
+        height: 360px;
+    }
+    .sevices .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .work .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+    }
+    section {
+        padding: 3rem 0;
+    }
+}
+
+
+@media (max-width:576px){
+    .hero{
+        flex-direction: column;
+    }
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 96%, 0 100%);
+    }
+    .hero .right{
+        position: absolute;
+        top: 260px;
+        padding:0 1rem;
+        background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
+    }
+    .hero .left{
+        margin-top: -5rem;
+        margin-right: -9rem;
+        padding-bottom: 4rem;
+    }
+    .about .flex{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .social .flex{
+        margin-left: 60px;
+        flex-direction:row;
+    }
+    .sevices .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .freelancer{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 90%, 0 100%);
+        padding-bottom: 8rem;
+    }
+    .freelancer h1{
+        line-height: 1.2;
+    }
+    .reviews .slider .slide{
+        padding: 0;
+    }
+    .work .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+    }
+    .contact .card-wrapper {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact .input-wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
