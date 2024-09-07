@@ -26,7 +26,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 2.4rem;
+}
+.main .profiles ul img {
+  width: 100px;
+  height: auto;
 }
 .main .profiles ul li a {
   text-decoration: none;
