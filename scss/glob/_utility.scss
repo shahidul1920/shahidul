@@ -1,0 +1,31 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    behavior: smooth;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primaty:#ffa600;
+    --liteYellow: #ffd380;
+    --deepOrange: #ff8531;
+    --pinkishRed: #ff8531;
+    --maxDeep:#bc5090;
+    --blueLite:#2c4875;
+    --blueMid:#003f5c;
+    --blueDark:#00202e;
+}
+
+body{
+    background: var(--primaty);
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
