@@ -1,0 +1,16 @@
+
+
+@media(max-width: 800px){
+    header .container .menus{
+        display: none;
+    }
+    .container{
+        padding:50px 20px;
+    }
+    .hero .container {
+        flex-wrap: wrap;
+    }
+    .hero .container .left h1 {
+        font-size: 45px;
+    }
+}
