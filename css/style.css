@@ -42,11 +42,11 @@
  header nav .branding{
      margin-right: 3rem;
  }
- header nav .branding h2{
+ header nav .branding h2, .branding-1 h2{
     color: #fff;
     cursor: pointer;
  }
- header nav .branding span{
+ header nav .branding span, .branding-1 span{
     color: #3dcfd3;
  }
  .hero{
@@ -187,6 +187,9 @@
      top: -3.5rem;
      left: 50%;
      transform: translateX(-50%);
+ }
+ .sevices .card .img-icon svg{
+    width: 40px;
  }
  .sevices .card-wrapper .card h2{
      font-size: 1.2rem;
