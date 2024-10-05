@@ -42,6 +42,13 @@
  header nav .branding{
      margin-right: 3rem;
  }
+ header nav .branding h2{
+    color: #fff;
+    cursor: pointer;
+ }
+ header nav .branding span{
+    color: #3dcfd3;
+ }
  .hero{
      padding: 3rem 0;
      width: 100%;
