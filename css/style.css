@@ -3,7 +3,7 @@
      --primary: #3dcfd3;
      --dark: #161616;
      --pure:#fff;
-     --ternery: #898989;
+     --ternery: #6e6d6d;
      --light:#f2f2f2;
  }
  body{
@@ -104,6 +104,10 @@
      border: 1px solid;
      border-color: var(--dark);
      padding: 1rem;
+     background: url(../images/shahidul-shakil-fiver.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
  }
  .about .about-me-img{
      height:450px ;
