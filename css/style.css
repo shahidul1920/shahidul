@@ -69,6 +69,10 @@
     }
     .hero .right{
      color: var(--pure);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding-left: 1rem;
  }
  .hero .right h6{
      font-size: 1.6rem;
