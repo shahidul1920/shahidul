@@ -108,6 +108,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.6;
  }
  .about .about-me-img{
      height:450px ;
@@ -128,7 +129,7 @@
      font-weight: 400;
  }
  .about p{
-     color: var(--ternery);
+     color: var(--dark);
      line-height: 1.9;
  }
  .about .social{
