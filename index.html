@@ -11,8 +11,7 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/3f86d2f0e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Shahidul_Shakil | Front-end & Graphics Wizard!</title>
 </head>
@@ -68,32 +67,25 @@
                     </div>
                 </nav>
                 <div class="hero flex items-center justify">
-                    <div class="left flex-1 flex justify-center" data-aos="fade-right">
+                    <div class="left flex-1 flex justify-center gsap-fade-right" >
 
                         <!-- <img src="pq.png" alt=""> -->
                         <img class="profile_pic" src="./images/Shahidul_Shakil_profile.jpg" alt="">
 
 
                     </div>
-                    <div class="right flex-1" data-aos="fade-left">
+                    <div class="right flex-1 gsap-fade-left" >
                         <h6>shahidul shakil</h6>
                         <h1>
-                            I'm your <span>friendly</span> neighborhood <span>Front-end & Graphics</span> Wizard!
-
-                            <!-- i'm a creative"😊" 
-                            <span> designer</span><br>
-                            & <span>Front-end</span> Developer -->
+                            WordPress & <span>Front-end</span> Developer
                         </h1>
                         <p>
 
-                            Uh-oh! Hit a snag in your project? No sweat!<br>
-                            My awesome team and I are here with a treasure trove of solutions. We believe in the power
-                            of teamwork - it's like a group of superheroes joining forces to save the day! Together,
-                            we'll tackle any challenge and turn your vision into reality.
+                            Results-driven Creative Developer and Visual Engineer with 4+ years of experience creating visually engaging and user-friendly web experiences.
 
                         </p>
                         <div class="buttons">
-                            <button class="btn btn-scndry"><a href="ShahidulShakil_Dev_.pdf" download=""> Download
+                            <button class="btn btn-scndry"><a href="Shahidul_Shakil_PL.pdf" download=""> Download
                                     CV</a></button>
                             <button class="btn btn-primary"><a target="_blank" href="https://www.behance.net/shakil-d">Behance</a></button>
                         </div>
@@ -105,7 +97,7 @@
 
         <section class="aboutSec">
             <div class="about mask" id="about">
-                <div data-aos="fade-left" class="container flex items-center">
+                <div class="container flex items-center gsap-fade-left" >
                     <div class="flex-1">
                         <img class="about-me-img" src="pq2.jpg" alt="">
                     </div>
@@ -113,11 +105,7 @@
                         <h1>about <span>Me</span></h1>
                         <h3>hello! i'm shahidul</h3>
                         <p>
-                            Great to meet you! I'm a seasoned front-end dev and graphics designer with 4 years of
-                            experience. Using React.js, Figma, and Node.js, I create stunning UIs and robust front-end
-                            solutions. I'm also skilled in Photoshop and Illustrator for graphics needs.<br>
-                            I've collaborated with international companies like Bargedesk, IPSaustralia, Twoinsoft, and
-                            Trust Holidays, and continue to work with many. Let's create something amazing together!
+                            Results-driven Creative Developer and Visual Engineer with 4+ years of experience creating visually engaging and user-friendly web experiences. Proven ability to deliver high-quality designs and code, resulting in increased user engagement and client satisfaction.
                             <br>
                         <div class="social">
                             <nav class="flex">
@@ -145,97 +133,78 @@
             <div class="container">
                 <h1 class="section-heading">My Awesome <span>Skills</span> Toolbox!</h1>
                 <p>Hey there! Let me show you all the cool tricks up my sleeve!</p>
-                <div class="card-wrapper">
+                <div class="card-wrapper" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
 
-                    <div data-aos="slide-right" class="card">
-                        <div class="img-icon">
-                            <i class="fas fa-paint-brush"></i>
+                    <div class="card gsap-fade-up" style="padding: 2rem;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fab fa-html5"></i>
                         </div>
-
-                        <h2>Graphics Design Magic ✏️🎨</h2>
-                        <p>
-                            I'm like a digital artist, wielding Adobe Photoshop and Illustrator like magic wands to
-                            create stunning visuals!
-                        </p>
+                        <h2>HTML & CSS</h2>
                     </div>
 
-
-                    <div data-aos="zoom-out" class="card">
-                        <div class="img-icon">
-                            <i class="fas fa-code"></i>
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.1s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fab fa-js"></i>
                         </div>
-
-                        <h2>HTML and CSS (SCSS) Wizardry 🌈</h2>
-                        <p>
-                            Since 2019, I've been crafting beautiful web pages with HTML and CSS. And guess what? I've
-                            leveled up with SCSS for even cooler customizations!
-                        </p>
+                        <h2>JAVASCRIPT</h2>
                     </div>
 
-                    <div data-aos="fade-left" class="card">
-                        <div class="img-icon">
-                            <!-- <i class="fas fa-briefcase"></i> -->
-                            <!-- <i class="fa-brands fa-js"></i> -->
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
-                            </svg>
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.2s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fab fa-react"></i>
                         </div>
-
-                        <h2>JavaScript Sorcery ✨</h2>
-                        <p>
-                            I've been conjuring JavaScript spells since 2019, mastering modern techniques to create
-                            mind-blowing website interactions!
-                        </p>
+                        <h2>REACT JS</h2>
                     </div>
 
-                    <div data-aos="slide-right" class="card">
-                        <div class="img-icon">
-                            <i class="fas fa-laptop-code"></i>
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.3s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fas fa-magic"></i>
                         </div>
-
-                        <h2>React JS Superpowers ⚛️</h2>
-                        <p>
-                            React JS is my trusty sidekick for building awesome websites. It's so much fun breaking
-                            sites into tiny, manageable pieces - like solving a super cool puzzle!
-
-                        </p>
+                        <h2>GSAP</h2>
                     </div>
 
-                    <div data-aos="zoom-out" class="card">
-                        <div class="img-icon">
-                            <!-- <i class="fas fa-film"></i> -->
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M248 0L208 0c-26.5 0-48 21.5-48 48l0 112c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-112c0-26.5-21.5-48-48-48L328 0l0 80c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-80zM64 256c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-40 0 0 80c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-80-40 0zM352 512l160 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-40 0 0 80c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-80-40 0c-15 0-28.8 5.1-39.7 13.8c4.9 10.4 7.7 22 7.7 34.2l0 160c0 12.2-2.8 23.8-7.7 34.2C323.2 506.9 337 512 352 512z" />
-                            </svg>
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.4s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fab fa-node-js"></i>
                         </div>
-
-                        <h2>Next JS Adventures 🚀</h2>
-                        <p>
-                            Next JS? More like Next Level JS! It's got some seriously cool features like server-side
-                            rendering and its own routing system. Learning it has been a blast!
-                        </p>
+                        <h2>Node js</h2>
                     </div>
 
-                    <div data-aos="fade-left" class="card">
-                        <div class="img-icon">
-                            <!-- <i class="fas fa-mobile"></i> -->
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M418.4 157.9c35.3-8.3 61.6-40 61.6-77.9c0-44.2-35.8-80-80-80c-43.4 0-78.7 34.5-80 77.5L136.2 151.1C121.7 136.8 101.9 128 80 128c-44.2 0-80 35.8-80 80s35.8 80 80 80c12.2 0 23.8-2.7 34.1-7.6L259.7 407.8c-2.4 7.6-3.7 15.8-3.7 24.2c0 44.2 35.8 80 80 80s80-35.8 80-80c0-27.7-14-52.1-35.4-66.4l37.8-207.7zM156.3 232.2c2.2-6.9 3.5-14.2 3.7-21.7l183.8-73.5c3.6 3.5 7.4 6.7 11.6 9.5L317.6 354.1c-5.5 1.3-10.8 3.1-15.8 5.5L156.3 232.2z" />
-                            </svg>
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.5s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fab fa-wordpress"></i>
                         </div>
-
-                        <h2>Express JS Expertise 🛠️</h2>
-                        <p>
-                            I've recently added Express JS to my toolkit, allowing me to create web applications that
-                            can handle both front-end and back-end data. It's like being a full-stack superhero!
-                        </p>
+                        <h2>WordPress</h2>
                     </div>
+
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.6s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <h2>UI UX (Figma)</h2>
+                    </div>
+
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.7s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h2>Adobe Photoshop</h2>
+                    </div>
+
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.8s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fas fa-pen-nib"></i>
+                        </div>
+                        <h2>Adobe Illustrator</h2>
+                    </div>
+
+                    <div class="card gsap-fade-up" style="padding: 2rem; transition-delay: 0.9s;">
+                        <div class="img-icon" style="position: relative; top: 0; left: 0; transform: none; margin-bottom: 1rem; color: var(--primary); font-size: 2rem;">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h2>Adobe After Effect</h2>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -247,7 +216,7 @@
 
             </p>
             <button class="btn btn-primary">
-                <a href="ShahidulShakil_Dev_.pdf" download=""> Download CV
+                <a href="Shahidul_Shakil_PL.pdf" download=""> Download CV
 
                 </a>
             </button>
@@ -305,180 +274,183 @@
                 <h1><span>My</span> Work</h1>
                 <p>There is some of my previous works</p>
 
-                <div class="card-wrapper">
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Golden Ratio Logo</a>
+                <div class="card-wrapper" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+                    <div class="card gsap-fade-up" style="background: var(--pure); padding-bottom: 1rem;">
+                        <div class="img-wrapper" style="max-height: 200px; overflow: hidden;">
+                            <img src="images/web3.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="">
                         </div>
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/7c9ce0194089541.65f6b2ad1118a.jpg"
-                            alt="">
-                    </div>
-                    <div data-aos="zoom-out" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Golden Ratio Logo</a>
+                        <div class="card-cont" style="padding: 1.5rem; text-align: left;">
+                            <a href="http://www.centralbarge.com" target="_blank" style="text-decoration: none; color: var(--dark);">
+                                <h1 style="font-size: 1.2rem; margin-bottom: 0.5rem;">SHIPPING MARKET PLACE</h1>
+                            </a>
+                            <span style="color: var(--ternery); font-size: 0.9rem;">centralbarge.com</span>
+                            <ul style="color: var(--ternery); margin-top: 1rem; font-size: 0.9rem; margin-left: 1rem; line-height: 1.6;">
+                                <li>Designed the logo and established the core brand identity.</li>
+                                <li>Collaborated with the internal team to develop a fully responsive WordPress website using Elementor, ensuring perfect alignment with their brand visuals.</li>
+                            </ul>
                         </div>
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/f98923190995063.65c3bc50d94ca.jpg"
-                            alt="">
-                    </div>
-                    <div data-aos="fade-left" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/web3.jpg" alt="">
-                    </div>
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Web Development</a>
-                        </div>
-                        <img src="images/web4.jpg" alt="">
-                    </div>
-                    <div data-aos="zoom-out" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Web Banner Design</a>
-                        </div>
-                        <img src="images/web68.jpg" alt="">
-                    </div>
-                    <div data-aos="fade-left" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Web Banner Design</a>
-                        </div>
-                        <img src="images/web69.jpg" alt="">
                     </div>
 
-
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Graphics Design</a>
+                    <div class="card gsap-fade-up" style="background: var(--pure); padding-bottom: 1rem; transition-delay: 0.1s;">
+                        <div class="img-wrapper" style="max-height: 200px; overflow: hidden;">
+                            <img src="images/web4.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="">
                         </div>
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/21536b186137969.65701c8d6e173.jpg"
-                            alt="">
+                        <div class="card-cont" style="padding: 1.5rem; text-align: left;">
+                            <a href="http://www.aecl-bd.org" target="_blank" style="text-decoration: none; color: var(--dark);">
+                                <h1 style="font-size: 1.2rem; margin-bottom: 0.5rem;">ADROIT ENVIRONMENT CONSULTANTS</h1>
+                            </a>
+                            <span style="color: var(--ternery); font-size: 0.9rem;">aecl-bd.org</span>
+                            <ul style="color: var(--ternery); margin-top: 1rem; font-size: 0.9rem; margin-left: 1rem; line-height: 1.6;">
+                                <li>Spearheaded a complete website re-creation, delivering noticeable design improvements and an upgraded user interface.</li>
+                                <li>Optimized the site architecture for enhanced web performance.</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">MERN Development</a>
+                    <div class="card gsap-fade-up" style="background: var(--pure); padding-bottom: 1rem; transition-delay: 0.2s;">
+                        <div class="img-wrapper" style="max-height: 200px; overflow: hidden;">
+                            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/398191629/original/c2feba2b1edd83c092d80365490a214449af975a/develop-a-custom-react-web-application-for-your-business.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="">
                         </div>
-                        <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/398191629/original/c2feba2b1edd83c092d80365490a214449af975a/develop-a-custom-react-web-application-for-your-business.jpg"
-                            alt="">
+                        <div class="card-cont" style="padding: 1.5rem; text-align: left;">
+                            <a href="http://www.cellrepairstore.com" target="_blank" style="text-decoration: none; color: var(--dark);">
+                                <h1 style="font-size: 1.2rem; margin-bottom: 0.5rem;">PHONE REPAIR SHOP'S WEBSITE</h1>
+                            </a>
+                            <span style="color: var(--ternery); font-size: 0.9rem;">cellrepairstore.com</span>
+                            <ul style="color: var(--ternery); margin-top: 1rem; font-size: 0.9rem; margin-left: 1rem; line-height: 1.6;">
+                                <li>Established their initial online presence by developing a dynamic website equipped with integrated booking and live features.</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Graphics Design</a>
+                    <div class="card gsap-fade-up" style="background: var(--pure); padding-bottom: 1rem; transition-delay: 0.3s;">
+                        <div class="img-wrapper" style="max-height: 200px; overflow: hidden;">
+                            <img src="images/web68.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="">
                         </div>
-                        <img src="https://media.licdn.com/dms/image/v2/D5622AQGqzVNUkDGyLw/feedshare-shrink_800/feedshare-shrink_800/0/1721240190397?e=1730937600&v=beta&t=HsQsdeCi57KPvtvMBcjE5vxdrUfsbg6xgdTIRMB2Cxs"
-                            alt="">
+                        <div class="card-cont" style="padding: 1.5rem; text-align: left;">
+                            <a href="http://www.brmsinternational.com" target="_blank" style="text-decoration: none; color: var(--dark);">
+                                <h1 style="font-size: 1.2rem; margin-bottom: 0.5rem;">BUYING HOUSE AND E-COMMERCE</h1>
+                            </a>
+                            <span style="color: var(--ternery); font-size: 0.9rem;">brmsinternational.com</span>
+                            <ul style="color: var(--ternery); margin-top: 1rem; font-size: 0.9rem; margin-left: 1rem; line-height: 1.6;">
+                                <li>Created their foundational online presence from the ground up.</li>
+                                <li>Developed a streamlined website featuring comprehensive company details alongside essential e-commerce functionality.</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Graphics Design</a>
+                    <div class="card gsap-fade-up" style="background: var(--pure); padding-bottom: 1rem; transition-delay: 0.4s;">
+                        <div class="img-wrapper" style="max-height: 200px; overflow: hidden;">
+                            <img src="images/web69.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="">
                         </div>
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/e525e7186006111.656e008353977.jpg"
-                            alt="">
-                    </div>
-
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">Graphics Design</a>
+                        <div class="card-cont" style="padding: 1.5rem; text-align: left;">
+                            <a href="http://www.redmun.com" target="_blank" style="text-decoration: none; color: var(--dark);">
+                                <h1 style="font-size: 1.2rem; margin-bottom: 0.5rem;">MARKETING AGENCY</h1>
+                            </a>
+                            <span style="color: var(--ternery); font-size: 0.9rem;">redmun.com</span>
+                            <ul style="color: var(--ternery); margin-top: 1rem; font-size: 0.9rem; margin-left: 1rem; line-height: 1.6;">
+                                <li>Contributed as a key member of the Brand Visuals team, actively engaging in core project planning and research.</li>
+                                <li>Led the team in developing a customized WordPress website, writing custom code for a tailored result.</li>
+                                <li>Initiated the development of a modern, interactive web application utilizing React JS and GSAP for advanced animations.</li>
+                            </ul>
                         </div>
-                        <img src="images/n-demo (5).jpeg" alt="">
-                    </div>
-
-                    <div data-aos="fade-right" class="card">
-                        <div class="overlay">
-                            <span>Catagory</span>
-                            <a href="#">web design</a>
-                        </div>
-                        <img src="images/n-demo (6).jpeg" alt="">
                     </div>
                 </div>
             </div>
 
         </section>
 
-        <section class="blog mask" id="blog">
+        <section class="blog mask" id="personal-projects" style="padding-bottom: 6rem; clip-path: none;">
             <div class="container">
                 <div class="text">
-                    <h1><span>My</span> Services</h1>
-                    <p>We are working on it, Stay with us ☺️</p>
-
+                    <h1>Personal <span>Projects</span></h1>
+                    <p>Some tools and apps I've built for fun and utility.</p>
                 </div>
 
-                <div class="card-wrapper">
-                    <div data-aos="fade-right" class="card">
-                        <div class="img-wrapper">
-                            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/398191629/original/c2feba2b1edd83c092d80365490a214449af975a/develop-a-custom-react-web-application-for-your-business.jpg"
-                                alt="">
+                <div class="card-wrapper" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.4rem;">
+                    <div class="card gsap-fade-right" style="padding: 2rem; border-radius: 8px; text-align: center;">
+                        <div class="img-icon" style="color: var(--primary); font-size: 2.5rem; margin-bottom: 1rem;">
+                            <i class="fas fa-comments"></i>
                         </div>
-                        <div class="card-cont">
-                            <a href="#">
-                                <h1>
-                                    Want to build your web application?
-                                </h1>
-                            </a>
-                            <span>starting from $250</span>
-                            <p>
-                                Are you looking for a professional, custom-built React web application?
-
-                                ﻿Look no further! With my expertise in React development, I'll create a tailored web app
-                                that meets your specific needs and enhances your online presence.
-
-                            </p>
-                            <a href="https://www.fiverr.com/s/pd93e4Y"> Read More</a>
-                        </div>
+                        <h1 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--dark);">Chat App</h1>
+                        <p style="color: var(--ternery);">Built with the MERN stack (MongoDB, Express, React, Node.js).</p>
                     </div>
-                    <div data-aos="zoom-out" class="card">
-                        <div class="img-wrapper">
-                            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/280399195/original/19c06ab883ef720595f1c30fe76e6d70a196f66d/create-golden-ratio-logo.jpg"
-                                alt="">
+                    
+                    <div class="card gsap-zoom-out" style="padding: 2rem; border-radius: 8px; text-align: center;">
+                        <div class="img-icon" style="color: var(--primary); font-size: 2.5rem; margin-bottom: 1rem;">
+                            <i class="fas fa-robot"></i>
                         </div>
-                        <div class="card-cont">
-                            <a href="#">
-                                <h1>Create minimal modern golden ratio logo design</h1>
-                            </a>
-                            <span>Starting from $120</span>
-                            <p>
-                                Are you looking for a logo that truly stands out? In a world where everyone wants a
-                                business logo, how can you ensure yours is unique and memorable?
-                                Ready to give your brand a visual boost? Let's chat about your vision and create a
-                                design that truly represents your business.
-
-                            </p>
-                            <a href="https://www.fiverr.com/s/7Y7jN0a"> Read More</a>
-                        </div>
+                        <h1 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--dark);">Personal Chatbot</h1>
+                        <p style="color: var(--ternery);">Powered by Llama 3 8B (Ollama).</p>
                     </div>
-                    <div data-aos="fade-left" class="card">
-                        <div class="img-wrapper">
-                            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/294232726/original/f72eebb4a682e21dbc4cad42f0d976b9fd41e572/create-complete-branding-kit-with-premium-logo-and-website.jpg"
-                                alt="">
+
+                    <div class="card gsap-fade-left" style="padding: 2rem; border-radius: 8px; text-align: center;">
+                        <div class="img-icon" style="color: var(--primary); font-size: 2.5rem; margin-bottom: 1rem;">
+                            <i class="fas fa-brain"></i>
                         </div>
-                        <div class="card-cont">
-                            <a href="#">
-                                <h1>Create complete branding kit with premium logo and website</h1>
-                            </a>
-                            <span>starting from $799</span>
-                            <p>
-                                Your Brand with Premium Branding Kit & Website Design & Development
-                                Revolutionize your business with our unparalleled branding and web design expertise. Our
-                                cutting-edge solutions dramatically boost your market presence and drive unprecedented
-                                growth.
-                            </p>
-                            <a href="https://www.fiverr.com/s/1qVEv06"> Read More</a>
-                        </div>
+                        <h1 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--dark);">AI Agent</h1>
+                        <p style="color: var(--ternery);">An AI agent with the ability to organize and manage leads effectively.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="resume-info mask" style="background: var(--light); padding: 6rem 0;">
+            <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                
+                <div class="gsap-fade-right">
+                    <h1 class="section-heading" style="text-align: left; line-height: 1.2;">Other <span>Experiences</span></h1>
+                    <ul style="list-style: none; margin-top: 2rem;">
+                        <li style="margin-bottom: 1.5rem;">
+                            <h3 style="font-size: 1.1rem; color: var(--dark);">WORDPRESS DEVELOPER</h3>
+                            <span style="color: var(--primary); font-size: 0.9rem;">Redmun digitech (2025 - On Going)</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem;">
+                            <h3 style="font-size: 1.1rem; color: var(--dark);">GRAPHICS DESIGNER</h3>
+                            <span style="color: var(--primary); font-size: 0.9rem;">OMC Heathcare (2024 - 2025)</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem;">
+                            <h3 style="font-size: 1.1rem; color: var(--dark);">WEB AND GRAPHICS SPECIALIST - REMOTE</h3>
+                            <span style="color: var(--primary); font-size: 0.9rem;">IPS-Australia (2022 - 2023)</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem;">
+                            <h3 style="font-size: 1.1rem; color: var(--dark);">WEB & GRAPHICS</h3>
+                            <span style="color: var(--primary); font-size: 0.9rem;">Fiverr Freelancing Platform (2019 - 2023)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="gsap-zoom-out">
+                    <h1 class="section-heading" style="text-align: left; line-height: 1.2;">Education</h1>
+                    <ul style="list-style: none; margin-top: 2rem;">
+                        <li style="margin-bottom: 1.5rem;">
+                            <h3 style="font-size: 1.1rem; color: var(--dark);">BACHELOR OF COMPUTER SCIENCES</h3>
+                            <span style="color: var(--primary); font-size: 0.9rem;">Uttara University (2024 - On going)</span>
+                        </li>
+                        <li style="margin-bottom: 1.5rem;">
+                            <h3 style="font-size: 1.1rem; color: var(--dark);">DIPLOMA IN COMPUTER SCIENCE</h3>
+                            <span style="color: var(--primary); font-size: 0.9rem;">Golden Polytechnic Institute</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="gsap-fade-left">
+                    <h1 class="section-heading" style="text-align: left; line-height: 1.2;">Certificates & <span>Achievements</span></h1>
+                    <ul style="list-style: none; margin-top: 2rem;">
+                        <li style="margin-bottom: 1rem; color: var(--ternery); display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> UX/UI Designer From CreativeIT
+                        </li>
+                        <li style="margin-bottom: 1rem; color: var(--ternery); display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> Grapics Designer From Twoinsoft
+                        </li>
+                        <li style="margin-bottom: 1rem; color: var(--ternery); display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> MERN Dev From eShikhon
+                        </li>
+                        <li style="margin-bottom: 1rem; color: var(--ternery); display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> Next JS from Frontend Master
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </section>
 
@@ -560,7 +532,8 @@
 
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

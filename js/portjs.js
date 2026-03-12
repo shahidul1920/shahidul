@@ -21,8 +21,41 @@ $(document).ready(function(){
 
     });
 
-    AOS.init({
-        duration : 1000
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray('.gsap-fade-right').forEach(function(elem) {
+        gsap.from(elem, {
+            scrollTrigger: { trigger: elem, start: "top 80%" },
+            x: -100, opacity: 0, duration: 1, ease: "power2.out"
+        });
+    });
+
+    gsap.utils.toArray('.gsap-fade-left').forEach(function(elem) {
+        gsap.from(elem, {
+            scrollTrigger: { trigger: elem, start: "top 80%" },
+            x: 100, opacity: 0, duration: 1, ease: "power2.out"
+        });
+    });
+
+    gsap.utils.toArray('.gsap-zoom-out').forEach(function(elem) {
+        gsap.from(elem, {
+            scrollTrigger: { trigger: elem, start: "top 80%" },
+            scale: 1.2, opacity: 0, duration: 1, ease: "power2.out"
+        });
+    });
+
+    gsap.utils.toArray('.gsap-slide-right').forEach(function(elem) {
+        gsap.from(elem, {
+            scrollTrigger: { trigger: elem, start: "top 80%" },
+            x: -50, opacity: 0, duration: 1, ease: "power2.out"
+        });
+    });
+
+    gsap.utils.toArray('.gsap-fade-up').forEach(function(elem) {
+        gsap.from(elem, {
+            scrollTrigger: { trigger: elem, start: "top 80%" },
+            y: 50, opacity: 0, duration: 1, ease: "power2.out"
+        });
     });
 });
 
